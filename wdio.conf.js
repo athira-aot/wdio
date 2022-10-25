@@ -1,8 +1,8 @@
 exports.config = {
     //
     // browser stack Configuration
-    user: process.env.BROWSERSTACK_USERNAME='athirasraj_InjTAs',
-    key: process.env.BROWSERSTACK_ACCESS_KEY='s8rsL9sKHCnKp29QpFHm',
+    user: process.env.BROWSERSTACK_USERNAME,
+    key: process.env.BROWSERSTACK_ACCESS_KEY,
     services: [
         ['browserstack', {
             browserstackLocal: true
