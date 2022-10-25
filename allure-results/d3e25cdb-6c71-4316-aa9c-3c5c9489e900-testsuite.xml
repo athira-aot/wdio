@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666461948729' stop='1666461991976'>
+    <name>Form</name>
+    <title>Form</title>
+    <test-cases>
+        <test-case start='1666461948731' status='passed' stop='1666461966689'>
+            <name>Enter username,password and click on login button</name>
+            <title>Enter username,password and click on login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666461966689' status='passed' stop='1666461979193'>
+            <name>click on search</name>
+            <title>click on search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666461979194' status='failed' stop='1666461991975'>
+            <name>fill all fields and click on submit</name>
+            <title>fill all fields and click on submit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`role=['alert']`) to have text containing
+                
+                Expected: "Submission Saved."
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`role=['alert']`) to have text containing
+                
+                Expected: "Submission Saved."
+                Received: undefined
+                    at Context.&lt;anonymous> (file:///C:/selenium%20learning/wdio-course/test/specs/form.mjs:27:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
